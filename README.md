@@ -12,9 +12,10 @@ We define an agent as an instructed large language model. An instruction here ty
 
 We define an agentic system as a system that needs to make some sort of decision, whether it is interpreting information or data, or triggering other systems or the agents. To some degree, in some cases, it will also be for systems that are meant to learn as they go and self-improve. Although it is very few places in today's industry where this is even being attempted in the sense that automnomous operation is possible at higher level than simple workflows or compacted processes (OpenAI, Google, Meta, Microsoft, Anthropic, and these kinds of companies).
 
-First, we declare two points:
+First, we declare three points:
 1. We want to have agentic systems that are inherently deterministic.
 2. We differ between deterministic automation and non-deterministic automation when building agentic systems.
+3. Non-deterministic systems are harder to debug.
 
 ## The Sweet Spot
 
