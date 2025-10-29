@@ -19,4 +19,16 @@ First, we declare three points:
 
 ## The Sweet Spot
 
-Currently, agentic systems are not good enough to be working on the entire process end-to-end and making all decisions by themselves. Instead, the most stable production agentic solutions one can achieve at the moment will be systems that are predominantly deterministic by design, where you use agents (instructed LLMs) for the portions that are not easily automatable by code. 
+Currently, agentic systems generalize poorly to work on entire processes and tasks end-to-end and making majority decisions by themselves. Instead, the most stable production agentic solutions one can achieve at the moment will be systems that are predominantly deterministic by design, where agents (instructed LLMs) are used for the portions that are not easily automatable as code.
+
+The sweet spot is thus striving to automate things that are deterministic as code, and only use agents when parts of a system is inherently non-deterministic.
+
+Software engineering still plays a role in these setups and in many cases traditional workflows come before agents when—as also promoted by industry leaders (Dex Horthy@HumanLayer, Barry Zhang@Anthropic).
+
+## Spec-First Development
+
+...
+
+## Map the process
+
+...
